@@ -6,4 +6,4 @@ stair = '#'
 
 for i in range(n):
     stairs = stair * (i + 1)
-    print ('{: >%d}' % n).format(stairs)
+    print ('{:%s>%d}' % (space, n)).format(stairs)
